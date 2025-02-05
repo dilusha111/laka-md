@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 //👉 Put Your Session Id 🐣 👈කියන එක කපලා අයින් කරලා ඔයාගේ Session id එක දාන්න.
 
-SESSION_ID: process.env.SESSION_ID || "LAKA-MD=5g431AAY#fbhqaYByb-faq25Fu_cUXqDP6nYUd_L7Xgsgcg7V_kg",
+SESSION_ID: process.env.SESSION_ID || "LAKA-MD=88QQmZCC#pgMAfDiTcRIEu2uBxX0JupEdaAS9yUoUMpgHmIk-woU",
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*`> MAMA BALUVA MAGETH BALANNA`*",
 
 
@@ -29,13 +29,13 @@ ANTI_LINK: process.env.ANTI_LINK === undefined ? "false" : process.env.ANTI_LINK
 AUTO_BLOCK: process.env.AUTO_BLOCK === undefined ? "false" : process.env.AUTO_BLOCK,
 ANTI_BOT: process.env.ANTI_BOT === undefined ? "false" : process.env.ANTI_BOT,
 ALLWAYS_OFFLINE: process.env.AUTO_READ_STATUS === undefined ? "true" : process.env.AUTO_READ_STATUS,
-READ_MESSAGE: process.env.READ_MESSAGE === undefined ? "false" : process.env.READ_MESSAGE,
-READ_CMD: process.env.READ_CMD === undefined ? "false" : process.env.READ_CMD,
+READ_MESSAGE: process.env.READ_MESSAGE === undefined ? "true" : process.env.READ_MESSAGE,
+READ_CMD: process.env.READ_CMD === undefined ? "true" : process.env.READ_CMD,
 ALWAYS_RECORDING: process.env.ALWAYS_RECORDING === undefined ? "true" : process.env.ALWAYS_RECORDING,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "true" : process.env.AUTO_REACT,
 BAD_NO_BLOCK: process.env.BAD_NO_BLOCK === undefined ? "false" : process.env.BAD_NO_BLOCK,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
-ANTI_CALL: process.env.ANTI_CALL === undefined ? "false" : process.env.ANTI_CALL,
+ANTI_CALL: process.env.ANTI_CALL === undefined ? "true" : process.env.ANTI_CALL,
 ALWAYS_TYPING: process.env.ALWAYS_TYPING === undefined ? "true" : process.env.ALWAYS_TYPING,
 ANTI_DELETE : process.env.ANTI_DELETE === undefined ? 'true' : process.env.ANTI_DELETE,
 OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39",
