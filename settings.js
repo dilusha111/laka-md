@@ -17,7 +17,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*`> MAMA BALUVA MAGETH BALANNA`
 
 PREFIX: process.env.PREFIX || '.' ,
 OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94770080582' : process.env.OWNER_NUMBER,
-MODE: process.env.MODE === undefined ?"praivet" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "true" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "true" : process.env.AUTO_REPLY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO_STICKER,
